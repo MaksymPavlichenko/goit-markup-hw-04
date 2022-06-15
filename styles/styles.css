@@ -135,8 +135,9 @@ ul {
 .hero {
     background-color: var(--bg-dark);
     color: var(--bg-main);
-    text-align: center;'
+    text-align: center;
     
+    margin: 0 auto;
     padding: 200px 0px;
     max-width: 1600px;
 
@@ -310,6 +311,8 @@ ul {
 }
 
 /*----Клиенты----*/
+
+
 .clients{
     padding-top: 94px;
 }
