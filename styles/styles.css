@@ -229,6 +229,17 @@ ul {
     min-height: 75px;
 }
 
+.icon-dignity {
+    width: 270px;
+    height: 120px;
+    background-color: var(--bg-else);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
 
 /*----Работы----*/
 
