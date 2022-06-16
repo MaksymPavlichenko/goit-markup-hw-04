@@ -7,6 +7,8 @@
     --dark-logo: #000000;
     --selection-color: #2196F3;
     --selection-color-dark: #188CE8;
+    --icon-fill: #afb1b8;
+    --icon-company-fill: #afb1b8;
 }
 
 body {
@@ -326,6 +328,36 @@ ul {
     letter-spacing: 0.03em;
     color: var(--text-main);
 }
+
+.conect-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conect-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.conect-link:hover,
+.conect-link:focus {
+    background-color: var(--selection-color);
+}
+
+.conect-icon {
+    fill: var(--icon-fill);
+}
+
+.conect-link:hover .conect-icon,
+.conect-link:focus .conect-icon {
+    fill: var(--bg-main);
+}
+
+
 
 /*----Клиенты----*/
 
