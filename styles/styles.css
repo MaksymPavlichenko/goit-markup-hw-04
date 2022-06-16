@@ -484,7 +484,7 @@ ul {
     fill: var(--text-color-alt);
 }  
  
-.connect-link:not(:last-child) {
+.conect-link:not(:last-child) {
     margin-right: 10px;;
 }
 
