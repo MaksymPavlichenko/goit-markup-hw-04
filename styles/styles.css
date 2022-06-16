@@ -387,7 +387,7 @@ ul {
     cursor: pointer;
 }
   
-.client-item::not(:last-child) {
+.client-item:not(:last-child) {
     margin-right: 30px;
 }
   
@@ -485,7 +485,7 @@ ul {
 }  
  
 .conect-link:not(:last-child) {
-    margin-right: 10px;;
+    margin-right: 10px;
 }
 
 
