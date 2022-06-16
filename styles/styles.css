@@ -373,9 +373,10 @@ ul {
     margin-bottom: 50px;
 }
 
-.client-list {
+.clients-list {
     margin-top: 50px;
     display: flex;
+    box-sizing: border-box;
 }
 
 .clients-item {
@@ -450,6 +451,8 @@ ul {
 .contacts-item:not(:last-child) {
     margin-bottom: 9px;
 }
+
+
 
 
 /*----Портфолио----*/
