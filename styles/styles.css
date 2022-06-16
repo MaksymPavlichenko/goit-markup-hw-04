@@ -379,9 +379,6 @@ ul {
     box-sizing: border-box;
 }
 
-.clients-item {
-    margin-right: 30px;
-}
   
 .client-link:hover,
 .client-link:focus {
@@ -390,8 +387,8 @@ ul {
     cursor: pointer;
 }
   
-.client-item:nth-child(6) {
-    margin-right: 0;
+.client-item::not(:last-child) {
+    margin-right: 30px;
 }
   
 .client-link {
@@ -452,6 +449,44 @@ ul {
     margin-bottom: 9px;
 }
 
+
+.conect-header {
+    margin-bottom: 20px;
+  
+    color: var(--bg-main);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.address-info {
+    margin-right: 70px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.conect-link {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social {
+    align-self: flex-start;
+    margin-top: 12px;
+}
+  
+.conect-icon-footer {
+    fill: var(--text-color-alt);
+}  
+ 
+.connect-link:not(:last-child) {
+    margin-right: 10px;;
+}
 
 
 
