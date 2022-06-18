@@ -473,7 +473,6 @@ ul {
 
 .conect-link {
     background-color: rgba(255, 255, 255, 0.1);
-    margin-right: 10px;
 }
 
 .footer-social {
@@ -483,13 +482,11 @@ ul {
   
 .conect-icon-footer {
     fill: var(--bg-main);
-}  
- 
-.conect-link:nth-child(4) {
-    margin-right: 0;
 }
 
-
+.conect-item:not(:last-child) {
+    margin-right: 10px;
+}
 
 /*----Портфолио----*/
 
